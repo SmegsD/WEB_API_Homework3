@@ -1,0 +1,614 @@
+{
+	"id": "c6c2f7e2-35ec-22e7-bf1b-a8a974d24eac",
+	"name": "API_Homework3",
+	"description": "",
+	"order": [
+		"e0c07661-f825-4f92-0ab8-27ffc47482ae",
+		"4ecd5e4b-2f8d-7e24-876a-155f1b3c1c19",
+		"9e6583cf-e9a7-c387-e556-e12e89f05772",
+		"93ffa31a-fa4f-824b-30a7-1028dfe6c93b",
+		"5012aa3c-b3b4-df72-1712-d6c2662b3955"
+	],
+	"folders": [],
+	"timestamp": 1489297467391,
+	"owner": "1525971",
+	"public": false,
+	"requests": [
+		{
+			"id": "4ecd5e4b-2f8d-7e24-876a-155f1b3c1c19",
+			"headers": "Authorization: Bearer {{access_token}}\n",
+			"url": "http://drews122002-test.apigee.net/homework2/gitHub",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c6c2f7e2-35ec-22e7-bf1b-a8a974d24eac",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://drews122002-test.apigee.net/homework2/gitHub",
+			"description": "github with oauth token",
+			"descriptionFormat": "html",
+			"time": 1489297911673,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action.",
+						"fromServer": true
+					},
+					"time": 1081,
+					"headers": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"name": "Access-Control-Allow-Origin",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "18949",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8",
+							"name": "Content-Type",
+							"description": "The mime type of this content"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 05:51:42 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4a05-/qvkjmVEFjw/S+e1Rcz/bRXXx3Y\"",
+							"name": "ETag",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express",
+							"name": "X-Powered-By",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"data\":[{\"id\":84699763,\"name\":\"API_Homework3\",\"full_name\":\"SmegsD/API_Homework3\",\"owner\":{\"login\":\"SmegsD\",\"id\":25494716,\"avatar_url\":\"https://avatars2.githubusercontent.com/u/25494716?v=3\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/SmegsD\",\"html_url\":\"https://github.com/SmegsD\",\"followers_url\":\"https://api.github.com/users/SmegsD/followers\",\"following_url\":\"https://api.github.com/users/SmegsD/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/SmegsD/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/SmegsD/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/SmegsD/subscriptions\",\"organizations_url\":\"https://api.github.com/users/SmegsD/orgs\",\"repos_url\":\"https://api.github.com/users/SmegsD/repos\",\"events_url\":\"https://api.github.com/users/SmegsD/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/SmegsD/received_events\",\"type\":\"User\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/SmegsD/API_Homework3\",\"description\":null,\"fork\":false,\"url\":\"https://api.github.com/repos/SmegsD/API_Homework3\",\"forks_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/forks\",\"keys_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/teams\",\"hooks_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/hooks\",\"issue_events_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/events\",\"assignees_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/tags\",\"blobs_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/languages\",\"stargazers_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/stargazers\",\"contributors_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/contributors\",\"subscribers_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/subscribers\",\"subscription_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/subscription\",\"commits_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/issues/comments{/number}\",\"contents_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/merges\",\"archive_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/downloads\",\"issues_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/releases{/id}\",\"deployments_url\":\"https://api.github.com/repos/SmegsD/API_Homework3/deployments\",\"created_at\":\"2017-03-12T04:29:34Z\",\"updated_at\":\"2017-03-12T04:29:34Z\",\"pushed_at\":\"2017-03-12T04:29:35Z\",\"git_url\":\"git://github.com/SmegsD/API_Homework3.git\",\"ssh_url\":\"git@github.com:SmegsD/API_Homework3.git\",\"clone_url\":\"https://github.com/SmegsD/API_Homework3.git\",\"svn_url\":\"https://github.com/SmegsD/API_Homework3\",\"homepage\":null,\"size\":0,\"stargazers_count\":0,\"watchers_count\":0,\"language\":null,\"has_issues\":true,\"has_downloads\":true,\"has_wiki\":true,\"has_pages\":false,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"permissions\":{\"admin\":true,\"push\":true,\"pull\":true}},{\"id\":83184546,\"name\":\"API_Hw2\",\"full_name\":\"SmegsD/API_Hw2\",\"owner\":{\"login\":\"SmegsD\",\"id\":25494716,\"avatar_url\":\"https://avatars2.githubusercontent.com/u/25494716?v=3\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/SmegsD\",\"html_url\":\"https://github.com/SmegsD\",\"followers_url\":\"https://api.github.com/users/SmegsD/followers\",\"following_url\":\"https://api.github.com/users/SmegsD/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/SmegsD/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/SmegsD/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/SmegsD/subscriptions\",\"organizations_url\":\"https://api.github.com/users/SmegsD/orgs\",\"repos_url\":\"https://api.github.com/users/SmegsD/repos\",\"events_url\":\"https://api.github.com/users/SmegsD/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/SmegsD/received_events\",\"type\":\"User\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/SmegsD/API_Hw2\",\"description\":null,\"fork\":false,\"url\":\"https://api.github.com/repos/SmegsD/API_Hw2\",\"forks_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/forks\",\"keys_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/teams\",\"hooks_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/hooks\",\"issue_events_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/events\",\"assignees_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/tags\",\"blobs_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/languages\",\"stargazers_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/stargazers\",\"contributors_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/contributors\",\"subscribers_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/subscribers\",\"subscription_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/subscription\",\"commits_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/issues/comments{/number}\",\"contents_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/merges\",\"archive_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/downloads\",\"issues_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/releases{/id}\",\"deployments_url\":\"https://api.github.com/repos/SmegsD/API_Hw2/deployments\",\"created_at\":\"2017-02-26T05:11:59Z\",\"updated_at\":\"2017-02-26T05:47:52Z\",\"pushed_at\":\"2017-03-08T04:02:09Z\",\"git_url\":\"git://github.com/SmegsD/API_Hw2.git\",\"ssh_url\":\"git@github.com:SmegsD/API_Hw2.git\",\"clone_url\":\"https://github.com/SmegsD/API_Hw2.git\",\"svn_url\":\"https://github.com/SmegsD/API_Hw2\",\"homepage\":null,\"size\":10,\"stargazers_count\":0,\"watchers_count\":0,\"language\":\"JavaScript\",\"has_issues\":true,\"has_downloads\":true,\"has_wiki\":true,\"has_pages\":false,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"permissions\":{\"admin\":true,\"push\":true,\"pull\":true}},{\"id\":81856574,\"name\":\"CodingLab4\",\"full_name\":\"SmegsD/CodingLab4\",\"owner\":{\"login\":\"SmegsD\",\"id\":25494716,\"avatar_url\":\"https://avatars2.githubusercontent.com/u/25494716?v=3\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/SmegsD\",\"html_url\":\"https://github.com/SmegsD\",\"followers_url\":\"https://api.github.com/users/SmegsD/followers\",\"following_url\":\"https://api.github.com/users/SmegsD/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/SmegsD/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/SmegsD/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/SmegsD/subscriptions\",\"organizations_url\":\"https://api.github.com/users/SmegsD/orgs\",\"repos_url\":\"https://api.github.com/users/SmegsD/repos\",\"events_url\":\"https://api.github.com/users/SmegsD/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/SmegsD/received_events\",\"type\":\"User\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/SmegsD/CodingLab4\",\"description\":null,\"fork\":true,\"url\":\"https://api.github.com/repos/SmegsD/CodingLab4\",\"forks_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/forks\",\"keys_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/teams\",\"hooks_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/hooks\",\"issue_events_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/events\",\"assignees_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/tags\",\"blobs_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/languages\",\"stargazers_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/stargazers\",\"contributors_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/contributors\",\"subscribers_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/subscribers\",\"subscription_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/subscription\",\"commits_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/issues/comments{/number}\",\"contents_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/merges\",\"archive_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/downloads\",\"issues_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/releases{/id}\",\"deployments_url\":\"https://api.github.com/repos/SmegsD/CodingLab4/deployments\",\"created_at\":\"2017-02-13T18:24:14Z\",\"updated_at\":\"2017-02-13T18:24:16Z\",\"pushed_at\":\"2017-02-25T05:47:06Z\",\"git_url\":\"git://github.com/SmegsD/CodingLab4.git\",\"ssh_url\":\"git@github.com:SmegsD/CodingLab4.git\",\"clone_url\":\"https://github.com/SmegsD/CodingLab4.git\",\"svn_url\":\"https://github.com/SmegsD/CodingLab4\",\"homepage\":null,\"size\":591,\"stargazers_count\":0,\"watchers_count\":0,\"language\":\"C#\",\"has_issues\":false,\"has_downloads\":true,\"has_wiki\":true,\"has_pages\":false,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"permissions\":{\"admin\":true,\"push\":true,\"pull\":true}},{\"id\":80954382,\"name\":\"Web_API_Homework1\",\"full_name\":\"SmegsD/Web_API_Homework1\",\"owner\":{\"login\":\"SmegsD\",\"id\":25494716,\"avatar_url\":\"https://avatars2.githubusercontent.com/u/25494716?v=3\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/SmegsD\",\"html_url\":\"https://github.com/SmegsD\",\"followers_url\":\"https://api.github.com/users/SmegsD/followers\",\"following_url\":\"https://api.github.com/users/SmegsD/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/SmegsD/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/SmegsD/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/SmegsD/subscriptions\",\"organizations_url\":\"https://api.github.com/users/SmegsD/orgs\",\"repos_url\":\"https://api.github.com/users/SmegsD/repos\",\"events_url\":\"https://api.github.com/users/SmegsD/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/SmegsD/received_events\",\"type\":\"User\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github.com/SmegsD/Web_API_Homework1\",\"description\":\"API's homework 1\",\"fork\":false,\"url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1\",\"forks_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/forks\",\"keys_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/keys{/key_id}\",\"collaborators_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/collaborators{/collaborator}\",\"teams_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/teams\",\"hooks_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/hooks\",\"issue_events_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/issues/events{/number}\",\"events_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/events\",\"assignees_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/assignees{/user}\",\"branches_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/branches{/branch}\",\"tags_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/tags\",\"blobs_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/git/blobs{/sha}\",\"git_tags_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/git/tags{/sha}\",\"git_refs_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/git/refs{/sha}\",\"trees_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/git/trees{/sha}\",\"statuses_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/statuses/{sha}\",\"languages_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/languages\",\"stargazers_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/stargazers\",\"contributors_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/contributors\",\"subscribers_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/subscribers\",\"subscription_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/subscription\",\"commits_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/commits{/sha}\",\"git_commits_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/git/commits{/sha}\",\"comments_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/comments{/number}\",\"issue_comment_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/issues/comments{/number}\",\"contents_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/contents/{+path}\",\"compare_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/compare/{base}...{head}\",\"merges_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/merges\",\"archive_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/{archive_format}{/ref}\",\"downloads_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/downloads\",\"issues_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/issues{/number}\",\"pulls_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/pulls{/number}\",\"milestones_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/milestones{/number}\",\"notifications_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/notifications{?since,all,participating}\",\"labels_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/labels{/name}\",\"releases_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/releases{/id}\",\"deployments_url\":\"https://api.github.com/repos/SmegsD/Web_API_Homework1/deployments\",\"created_at\":\"2017-02-04T23:00:24Z\",\"updated_at\":\"2017-02-04T23:00:24Z\",\"pushed_at\":\"2017-02-04T23:08:02Z\",\"git_url\":\"git://github.com/SmegsD/Web_API_Homework1.git\",\"ssh_url\":\"git@github.com:SmegsD/Web_API_Homework1.git\",\"clone_url\":\"https://github.com/SmegsD/Web_API_Homework1.git\",\"svn_url\":\"https://github.com/SmegsD/Web_API_Homework1\",\"homepage\":null,\"size\":2,\"stargazers_count\":0,\"watchers_count\":0,\"language\":null,\"has_issues\":true,\"has_downloads\":true,\"has_wiki\":true,\"has_pages\":false,\"forks_count\":0,\"mirror_url\":null,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\",\"permissions\":{\"admin\":true,\"push\":true,\"pull\":true}}],\"meta\":{\"x-ratelimit-limit\":\"5000\",\"x-ratelimit-remaining\":\"4951\",\"x-ratelimit-reset\":\"1489298779\",\"x-github-request-id\":\"B3BA:0712:82A6549:9CA2728:58C4E1EE\",\"x-github-media-type\":\"github.v3; format=json\",\"etag\":\"\\\"814f3e0b198c3e97d8bbc25e7ecf21e3\\\"\",\"status\":\"200 OK\"}}",
+					"language": "json",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 18949,
+						"header": 272
+					},
+					"mimeType": "text",
+					"fileName": "response.json",
+					"dataURI": "data:application/json;base64, eyJkYXRhIjpbeyJpZCI6ODQ2OTk3NjMsIm5hbWUiOiJBUElfSG9tZXdvcmszIiwiZnVsbF9uYW1lIjoiU21lZ3NEL0FQSV9Ib21ld29yazMiLCJvd25lciI6eyJsb2dpbiI6IlNtZWdzRCIsImlkIjoyNTQ5NDcxNiwiYXZhdGFyX3VybCI6Imh0dHBzOi8vYXZhdGFyczIuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMjU0OTQ3MTY/dj0zIiwiZ3JhdmF0YXJfaWQiOiIiLCJ1cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL1NtZWdzRCIsImh0bWxfdXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL1NtZWdzRCIsImZvbGxvd2Vyc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL1NtZWdzRC9mb2xsb3dlcnMiLCJmb2xsb3dpbmdfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0QvZm9sbG93aW5ney9vdGhlcl91c2VyfSIsImdpc3RzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvU21lZ3NEL2dpc3Rzey9naXN0X2lkfSIsInN0YXJyZWRfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0Qvc3RhcnJlZHsvb3duZXJ9ey9yZXBvfSIsInN1YnNjcmlwdGlvbnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0Qvc3Vic2NyaXB0aW9ucyIsIm9yZ2FuaXphdGlvbnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0Qvb3JncyIsInJlcG9zX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvU21lZ3NEL3JlcG9zIiwiZXZlbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvU21lZ3NEL2V2ZW50c3svcHJpdmFjeX0iLCJyZWNlaXZlZF9ldmVudHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0QvcmVjZWl2ZWRfZXZlbnRzIiwidHlwZSI6IlVzZXIiLCJzaXRlX2FkbWluIjpmYWxzZX0sInByaXZhdGUiOmZhbHNlLCJodG1sX3VybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9TbWVnc0QvQVBJX0hvbWV3b3JrMyIsImRlc2NyaXB0aW9uIjpudWxsLCJmb3JrIjpmYWxzZSwidXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0hvbWV3b3JrMyIsImZvcmtzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvZm9ya3MiLCJrZXlzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMva2V5c3sva2V5X2lkfSIsImNvbGxhYm9yYXRvcnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0hvbWV3b3JrMy9jb2xsYWJvcmF0b3Jzey9jb2xsYWJvcmF0b3J9IiwidGVhbXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0hvbWV3b3JrMy90ZWFtcyIsImhvb2tzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvaG9va3MiLCJpc3N1ZV9ldmVudHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0hvbWV3b3JrMy9pc3N1ZXMvZXZlbnRzey9udW1iZXJ9IiwiZXZlbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvZXZlbnRzIiwiYXNzaWduZWVzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvYXNzaWduZWVzey91c2VyfSIsImJyYW5jaGVzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvYnJhbmNoZXN7L2JyYW5jaH0iLCJ0YWdzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvdGFncyIsImJsb2JzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvZ2l0L2Jsb2Jzey9zaGF9IiwiZ2l0X3RhZ3NfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0hvbWV3b3JrMy9naXQvdGFnc3svc2hhfSIsImdpdF9yZWZzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvZ2l0L3JlZnN7L3NoYX0iLCJ0cmVlc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSG9tZXdvcmszL2dpdC90cmVlc3svc2hhfSIsInN0YXR1c2VzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvc3RhdHVzZXMve3NoYX0iLCJsYW5ndWFnZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0hvbWV3b3JrMy9sYW5ndWFnZXMiLCJzdGFyZ2F6ZXJzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvc3RhcmdhemVycyIsImNvbnRyaWJ1dG9yc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSG9tZXdvcmszL2NvbnRyaWJ1dG9ycyIsInN1YnNjcmliZXJzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvc3Vic2NyaWJlcnMiLCJzdWJzY3JpcHRpb25fdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0hvbWV3b3JrMy9zdWJzY3JpcHRpb24iLCJjb21taXRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvY29tbWl0c3svc2hhfSIsImdpdF9jb21taXRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvZ2l0L2NvbW1pdHN7L3NoYX0iLCJjb21tZW50c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSG9tZXdvcmszL2NvbW1lbnRzey9udW1iZXJ9IiwiaXNzdWVfY29tbWVudF91cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSG9tZXdvcmszL2lzc3Vlcy9jb21tZW50c3svbnVtYmVyfSIsImNvbnRlbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvY29udGVudHMveytwYXRofSIsImNvbXBhcmVfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0hvbWV3b3JrMy9jb21wYXJlL3tiYXNlfS4uLntoZWFkfSIsIm1lcmdlc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSG9tZXdvcmszL21lcmdlcyIsImFyY2hpdmVfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0hvbWV3b3JrMy97YXJjaGl2ZV9mb3JtYXR9ey9yZWZ9IiwiZG93bmxvYWRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvZG93bmxvYWRzIiwiaXNzdWVzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9Ib21ld29yazMvaXNzdWVzey9udW1iZXJ9IiwicHVsbHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0hvbWV3b3JrMy9wdWxsc3svbnVtYmVyfSIsIm1pbGVzdG9uZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0hvbWV3b3JrMy9taWxlc3RvbmVzey9udW1iZXJ9Iiwibm90aWZpY2F0aW9uc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSG9tZXdvcmszL25vdGlmaWNhdGlvbnN7P3NpbmNlLGFsbCxwYXJ0aWNpcGF0aW5nfSIsImxhYmVsc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSG9tZXdvcmszL2xhYmVsc3svbmFtZX0iLCJyZWxlYXNlc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSG9tZXdvcmszL3JlbGVhc2Vzey9pZH0iLCJkZXBsb3ltZW50c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSG9tZXdvcmszL2RlcGxveW1lbnRzIiwiY3JlYXRlZF9hdCI6IjIwMTctMDMtMTJUMDQ6Mjk6MzRaIiwidXBkYXRlZF9hdCI6IjIwMTctMDMtMTJUMDQ6Mjk6MzRaIiwicHVzaGVkX2F0IjoiMjAxNy0wMy0xMlQwNDoyOTozNVoiLCJnaXRfdXJsIjoiZ2l0Oi8vZ2l0aHViLmNvbS9TbWVnc0QvQVBJX0hvbWV3b3JrMy5naXQiLCJzc2hfdXJsIjoiZ2l0QGdpdGh1Yi5jb206U21lZ3NEL0FQSV9Ib21ld29yazMuZ2l0IiwiY2xvbmVfdXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL1NtZWdzRC9BUElfSG9tZXdvcmszLmdpdCIsInN2bl91cmwiOiJodHRwczovL2dpdGh1Yi5jb20vU21lZ3NEL0FQSV9Ib21ld29yazMiLCJob21lcGFnZSI6bnVsbCwic2l6ZSI6MCwic3RhcmdhemVyc19jb3VudCI6MCwid2F0Y2hlcnNfY291bnQiOjAsImxhbmd1YWdlIjpudWxsLCJoYXNfaXNzdWVzIjp0cnVlLCJoYXNfZG93bmxvYWRzIjp0cnVlLCJoYXNfd2lraSI6dHJ1ZSwiaGFzX3BhZ2VzIjpmYWxzZSwiZm9ya3NfY291bnQiOjAsIm1pcnJvcl91cmwiOm51bGwsIm9wZW5faXNzdWVzX2NvdW50IjowLCJmb3JrcyI6MCwib3Blbl9pc3N1ZXMiOjAsIndhdGNoZXJzIjowLCJkZWZhdWx0X2JyYW5jaCI6Im1hc3RlciIsInBlcm1pc3Npb25zIjp7ImFkbWluIjp0cnVlLCJwdXNoIjp0cnVlLCJwdWxsIjp0cnVlfX0seyJpZCI6ODMxODQ1NDYsIm5hbWUiOiJBUElfSHcyIiwiZnVsbF9uYW1lIjoiU21lZ3NEL0FQSV9IdzIiLCJvd25lciI6eyJsb2dpbiI6IlNtZWdzRCIsImlkIjoyNTQ5NDcxNiwiYXZhdGFyX3VybCI6Imh0dHBzOi8vYXZhdGFyczIuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMjU0OTQ3MTY/dj0zIiwiZ3JhdmF0YXJfaWQiOiIiLCJ1cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL1NtZWdzRCIsImh0bWxfdXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL1NtZWdzRCIsImZvbGxvd2Vyc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL1NtZWdzRC9mb2xsb3dlcnMiLCJmb2xsb3dpbmdfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0QvZm9sbG93aW5ney9vdGhlcl91c2VyfSIsImdpc3RzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvU21lZ3NEL2dpc3Rzey9naXN0X2lkfSIsInN0YXJyZWRfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0Qvc3RhcnJlZHsvb3duZXJ9ey9yZXBvfSIsInN1YnNjcmlwdGlvbnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0Qvc3Vic2NyaXB0aW9ucyIsIm9yZ2FuaXphdGlvbnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0Qvb3JncyIsInJlcG9zX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvU21lZ3NEL3JlcG9zIiwiZXZlbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvU21lZ3NEL2V2ZW50c3svcHJpdmFjeX0iLCJyZWNlaXZlZF9ldmVudHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0QvcmVjZWl2ZWRfZXZlbnRzIiwidHlwZSI6IlVzZXIiLCJzaXRlX2FkbWluIjpmYWxzZX0sInByaXZhdGUiOmZhbHNlLCJodG1sX3VybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9TbWVnc0QvQVBJX0h3MiIsImRlc2NyaXB0aW9uIjpudWxsLCJmb3JrIjpmYWxzZSwidXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0h3MiIsImZvcmtzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvZm9ya3MiLCJrZXlzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIva2V5c3sva2V5X2lkfSIsImNvbGxhYm9yYXRvcnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0h3Mi9jb2xsYWJvcmF0b3Jzey9jb2xsYWJvcmF0b3J9IiwidGVhbXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0h3Mi90ZWFtcyIsImhvb2tzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvaG9va3MiLCJpc3N1ZV9ldmVudHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0h3Mi9pc3N1ZXMvZXZlbnRzey9udW1iZXJ9IiwiZXZlbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvZXZlbnRzIiwiYXNzaWduZWVzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvYXNzaWduZWVzey91c2VyfSIsImJyYW5jaGVzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvYnJhbmNoZXN7L2JyYW5jaH0iLCJ0YWdzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvdGFncyIsImJsb2JzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvZ2l0L2Jsb2Jzey9zaGF9IiwiZ2l0X3RhZ3NfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0h3Mi9naXQvdGFnc3svc2hhfSIsImdpdF9yZWZzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvZ2l0L3JlZnN7L3NoYX0iLCJ0cmVlc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSHcyL2dpdC90cmVlc3svc2hhfSIsInN0YXR1c2VzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvc3RhdHVzZXMve3NoYX0iLCJsYW5ndWFnZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0h3Mi9sYW5ndWFnZXMiLCJzdGFyZ2F6ZXJzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvc3RhcmdhemVycyIsImNvbnRyaWJ1dG9yc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSHcyL2NvbnRyaWJ1dG9ycyIsInN1YnNjcmliZXJzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvc3Vic2NyaWJlcnMiLCJzdWJzY3JpcHRpb25fdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0h3Mi9zdWJzY3JpcHRpb24iLCJjb21taXRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvY29tbWl0c3svc2hhfSIsImdpdF9jb21taXRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvZ2l0L2NvbW1pdHN7L3NoYX0iLCJjb21tZW50c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSHcyL2NvbW1lbnRzey9udW1iZXJ9IiwiaXNzdWVfY29tbWVudF91cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSHcyL2lzc3Vlcy9jb21tZW50c3svbnVtYmVyfSIsImNvbnRlbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvY29udGVudHMveytwYXRofSIsImNvbXBhcmVfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0h3Mi9jb21wYXJlL3tiYXNlfS4uLntoZWFkfSIsIm1lcmdlc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSHcyL21lcmdlcyIsImFyY2hpdmVfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0h3Mi97YXJjaGl2ZV9mb3JtYXR9ey9yZWZ9IiwiZG93bmxvYWRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvZG93bmxvYWRzIiwiaXNzdWVzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0FQSV9IdzIvaXNzdWVzey9udW1iZXJ9IiwicHVsbHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0h3Mi9wdWxsc3svbnVtYmVyfSIsIm1pbGVzdG9uZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQVBJX0h3Mi9taWxlc3RvbmVzey9udW1iZXJ9Iiwibm90aWZpY2F0aW9uc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSHcyL25vdGlmaWNhdGlvbnN7P3NpbmNlLGFsbCxwYXJ0aWNpcGF0aW5nfSIsImxhYmVsc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSHcyL2xhYmVsc3svbmFtZX0iLCJyZWxlYXNlc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSHcyL3JlbGVhc2Vzey9pZH0iLCJkZXBsb3ltZW50c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9BUElfSHcyL2RlcGxveW1lbnRzIiwiY3JlYXRlZF9hdCI6IjIwMTctMDItMjZUMDU6MTE6NTlaIiwidXBkYXRlZF9hdCI6IjIwMTctMDItMjZUMDU6NDc6NTJaIiwicHVzaGVkX2F0IjoiMjAxNy0wMy0wOFQwNDowMjowOVoiLCJnaXRfdXJsIjoiZ2l0Oi8vZ2l0aHViLmNvbS9TbWVnc0QvQVBJX0h3Mi5naXQiLCJzc2hfdXJsIjoiZ2l0QGdpdGh1Yi5jb206U21lZ3NEL0FQSV9IdzIuZ2l0IiwiY2xvbmVfdXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL1NtZWdzRC9BUElfSHcyLmdpdCIsInN2bl91cmwiOiJodHRwczovL2dpdGh1Yi5jb20vU21lZ3NEL0FQSV9IdzIiLCJob21lcGFnZSI6bnVsbCwic2l6ZSI6MTAsInN0YXJnYXplcnNfY291bnQiOjAsIndhdGNoZXJzX2NvdW50IjowLCJsYW5ndWFnZSI6IkphdmFTY3JpcHQiLCJoYXNfaXNzdWVzIjp0cnVlLCJoYXNfZG93bmxvYWRzIjp0cnVlLCJoYXNfd2lraSI6dHJ1ZSwiaGFzX3BhZ2VzIjpmYWxzZSwiZm9ya3NfY291bnQiOjAsIm1pcnJvcl91cmwiOm51bGwsIm9wZW5faXNzdWVzX2NvdW50IjowLCJmb3JrcyI6MCwib3Blbl9pc3N1ZXMiOjAsIndhdGNoZXJzIjowLCJkZWZhdWx0X2JyYW5jaCI6Im1hc3RlciIsInBlcm1pc3Npb25zIjp7ImFkbWluIjp0cnVlLCJwdXNoIjp0cnVlLCJwdWxsIjp0cnVlfX0seyJpZCI6ODE4NTY1NzQsIm5hbWUiOiJDb2RpbmdMYWI0IiwiZnVsbF9uYW1lIjoiU21lZ3NEL0NvZGluZ0xhYjQiLCJvd25lciI6eyJsb2dpbiI6IlNtZWdzRCIsImlkIjoyNTQ5NDcxNiwiYXZhdGFyX3VybCI6Imh0dHBzOi8vYXZhdGFyczIuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvMjU0OTQ3MTY/dj0zIiwiZ3JhdmF0YXJfaWQiOiIiLCJ1cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL1NtZWdzRCIsImh0bWxfdXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL1NtZWdzRCIsImZvbGxvd2Vyc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL1NtZWdzRC9mb2xsb3dlcnMiLCJmb2xsb3dpbmdfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0QvZm9sbG93aW5ney9vdGhlcl91c2VyfSIsImdpc3RzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvU21lZ3NEL2dpc3Rzey9naXN0X2lkfSIsInN0YXJyZWRfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0Qvc3RhcnJlZHsvb3duZXJ9ey9yZXBvfSIsInN1YnNjcmlwdGlvbnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0Qvc3Vic2NyaXB0aW9ucyIsIm9yZ2FuaXphdGlvbnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0Qvb3JncyIsInJlcG9zX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvU21lZ3NEL3JlcG9zIiwiZXZlbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvU21lZ3NEL2V2ZW50c3svcHJpdmFjeX0iLCJyZWNlaXZlZF9ldmVudHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0QvcmVjZWl2ZWRfZXZlbnRzIiwidHlwZSI6IlVzZXIiLCJzaXRlX2FkbWluIjpmYWxzZX0sInByaXZhdGUiOmZhbHNlLCJodG1sX3VybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9TbWVnc0QvQ29kaW5nTGFiNCIsImRlc2NyaXB0aW9uIjpudWxsLCJmb3JrIjp0cnVlLCJ1cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9Db2RpbmdMYWI0IiwiZm9ya3NfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9mb3JrcyIsImtleXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9rZXlzey9rZXlfaWR9IiwiY29sbGFib3JhdG9yc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9Db2RpbmdMYWI0L2NvbGxhYm9yYXRvcnN7L2NvbGxhYm9yYXRvcn0iLCJ0ZWFtc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9Db2RpbmdMYWI0L3RlYW1zIiwiaG9va3NfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9ob29rcyIsImlzc3VlX2V2ZW50c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9Db2RpbmdMYWI0L2lzc3Vlcy9ldmVudHN7L251bWJlcn0iLCJldmVudHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9ldmVudHMiLCJhc3NpZ25lZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9hc3NpZ25lZXN7L3VzZXJ9IiwiYnJhbmNoZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9icmFuY2hlc3svYnJhbmNofSIsInRhZ3NfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC90YWdzIiwiYmxvYnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9naXQvYmxvYnN7L3NoYX0iLCJnaXRfdGFnc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9Db2RpbmdMYWI0L2dpdC90YWdzey9zaGF9IiwiZ2l0X3JlZnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9naXQvcmVmc3svc2hhfSIsInRyZWVzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0NvZGluZ0xhYjQvZ2l0L3RyZWVzey9zaGF9Iiwic3RhdHVzZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9zdGF0dXNlcy97c2hhfSIsImxhbmd1YWdlc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9Db2RpbmdMYWI0L2xhbmd1YWdlcyIsInN0YXJnYXplcnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9zdGFyZ2F6ZXJzIiwiY29udHJpYnV0b3JzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0NvZGluZ0xhYjQvY29udHJpYnV0b3JzIiwic3Vic2NyaWJlcnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9zdWJzY3JpYmVycyIsInN1YnNjcmlwdGlvbl91cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9Db2RpbmdMYWI0L3N1YnNjcmlwdGlvbiIsImNvbW1pdHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9jb21taXRzey9zaGF9IiwiZ2l0X2NvbW1pdHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9naXQvY29tbWl0c3svc2hhfSIsImNvbW1lbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0NvZGluZ0xhYjQvY29tbWVudHN7L251bWJlcn0iLCJpc3N1ZV9jb21tZW50X3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0NvZGluZ0xhYjQvaXNzdWVzL2NvbW1lbnRzey9udW1iZXJ9IiwiY29udGVudHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9jb250ZW50cy97K3BhdGh9IiwiY29tcGFyZV91cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9Db2RpbmdMYWI0L2NvbXBhcmUve2Jhc2V9Li4ue2hlYWR9IiwibWVyZ2VzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0NvZGluZ0xhYjQvbWVyZ2VzIiwiYXJjaGl2ZV91cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9Db2RpbmdMYWI0L3thcmNoaXZlX2Zvcm1hdH17L3JlZn0iLCJkb3dubG9hZHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9kb3dubG9hZHMiLCJpc3N1ZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvQ29kaW5nTGFiNC9pc3N1ZXN7L251bWJlcn0iLCJwdWxsc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9Db2RpbmdMYWI0L3B1bGxzey9udW1iZXJ9IiwibWlsZXN0b25lc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9Db2RpbmdMYWI0L21pbGVzdG9uZXN7L251bWJlcn0iLCJub3RpZmljYXRpb25zX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0NvZGluZ0xhYjQvbm90aWZpY2F0aW9uc3s/c2luY2UsYWxsLHBhcnRpY2lwYXRpbmd9IiwibGFiZWxzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0NvZGluZ0xhYjQvbGFiZWxzey9uYW1lfSIsInJlbGVhc2VzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0NvZGluZ0xhYjQvcmVsZWFzZXN7L2lkfSIsImRlcGxveW1lbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL0NvZGluZ0xhYjQvZGVwbG95bWVudHMiLCJjcmVhdGVkX2F0IjoiMjAxNy0wMi0xM1QxODoyNDoxNFoiLCJ1cGRhdGVkX2F0IjoiMjAxNy0wMi0xM1QxODoyNDoxNloiLCJwdXNoZWRfYXQiOiIyMDE3LTAyLTI1VDA1OjQ3OjA2WiIsImdpdF91cmwiOiJnaXQ6Ly9naXRodWIuY29tL1NtZWdzRC9Db2RpbmdMYWI0LmdpdCIsInNzaF91cmwiOiJnaXRAZ2l0aHViLmNvbTpTbWVnc0QvQ29kaW5nTGFiNC5naXQiLCJjbG9uZV91cmwiOiJodHRwczovL2dpdGh1Yi5jb20vU21lZ3NEL0NvZGluZ0xhYjQuZ2l0Iiwic3ZuX3VybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9TbWVnc0QvQ29kaW5nTGFiNCIsImhvbWVwYWdlIjpudWxsLCJzaXplIjo1OTEsInN0YXJnYXplcnNfY291bnQiOjAsIndhdGNoZXJzX2NvdW50IjowLCJsYW5ndWFnZSI6IkMjIiwiaGFzX2lzc3VlcyI6ZmFsc2UsImhhc19kb3dubG9hZHMiOnRydWUsImhhc193aWtpIjp0cnVlLCJoYXNfcGFnZXMiOmZhbHNlLCJmb3Jrc19jb3VudCI6MCwibWlycm9yX3VybCI6bnVsbCwib3Blbl9pc3N1ZXNfY291bnQiOjAsImZvcmtzIjowLCJvcGVuX2lzc3VlcyI6MCwid2F0Y2hlcnMiOjAsImRlZmF1bHRfYnJhbmNoIjoibWFzdGVyIiwicGVybWlzc2lvbnMiOnsiYWRtaW4iOnRydWUsInB1c2giOnRydWUsInB1bGwiOnRydWV9fSx7ImlkIjo4MDk1NDM4MiwibmFtZSI6IldlYl9BUElfSG9tZXdvcmsxIiwiZnVsbF9uYW1lIjoiU21lZ3NEL1dlYl9BUElfSG9tZXdvcmsxIiwib3duZXIiOnsibG9naW4iOiJTbWVnc0QiLCJpZCI6MjU0OTQ3MTYsImF2YXRhcl91cmwiOiJodHRwczovL2F2YXRhcnMyLmdpdGh1YnVzZXJjb250ZW50LmNvbS91LzI1NDk0NzE2P3Y9MyIsImdyYXZhdGFyX2lkIjoiIiwidXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0QiLCJodG1sX3VybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9TbWVnc0QiLCJmb2xsb3dlcnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy9TbWVnc0QvZm9sbG93ZXJzIiwiZm9sbG93aW5nX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvU21lZ3NEL2ZvbGxvd2luZ3svb3RoZXJfdXNlcn0iLCJnaXN0c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL1NtZWdzRC9naXN0c3svZ2lzdF9pZH0iLCJzdGFycmVkX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvU21lZ3NEL3N0YXJyZWR7L293bmVyfXsvcmVwb30iLCJzdWJzY3JpcHRpb25zX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvU21lZ3NEL3N1YnNjcmlwdGlvbnMiLCJvcmdhbml6YXRpb25zX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvU21lZ3NEL29yZ3MiLCJyZXBvc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL1NtZWdzRC9yZXBvcyIsImV2ZW50c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3VzZXJzL1NtZWdzRC9ldmVudHN7L3ByaXZhY3l9IiwicmVjZWl2ZWRfZXZlbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vdXNlcnMvU21lZ3NEL3JlY2VpdmVkX2V2ZW50cyIsInR5cGUiOiJVc2VyIiwic2l0ZV9hZG1pbiI6ZmFsc2V9LCJwcml2YXRlIjpmYWxzZSwiaHRtbF91cmwiOiJodHRwczovL2dpdGh1Yi5jb20vU21lZ3NEL1dlYl9BUElfSG9tZXdvcmsxIiwiZGVzY3JpcHRpb24iOiJBUEkncyBob21ld29yayAxIiwiZm9yayI6ZmFsc2UsInVybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL1dlYl9BUElfSG9tZXdvcmsxIiwiZm9ya3NfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEvZm9ya3MiLCJrZXlzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL1dlYl9BUElfSG9tZXdvcmsxL2tleXN7L2tleV9pZH0iLCJjb2xsYWJvcmF0b3JzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL1dlYl9BUElfSG9tZXdvcmsxL2NvbGxhYm9yYXRvcnN7L2NvbGxhYm9yYXRvcn0iLCJ0ZWFtc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9XZWJfQVBJX0hvbWV3b3JrMS90ZWFtcyIsImhvb2tzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL1dlYl9BUElfSG9tZXdvcmsxL2hvb2tzIiwiaXNzdWVfZXZlbnRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL1dlYl9BUElfSG9tZXdvcmsxL2lzc3Vlcy9ldmVudHN7L251bWJlcn0iLCJldmVudHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEvZXZlbnRzIiwiYXNzaWduZWVzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL1dlYl9BUElfSG9tZXdvcmsxL2Fzc2lnbmVlc3svdXNlcn0iLCJicmFuY2hlc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9XZWJfQVBJX0hvbWV3b3JrMS9icmFuY2hlc3svYnJhbmNofSIsInRhZ3NfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEvdGFncyIsImJsb2JzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL1dlYl9BUElfSG9tZXdvcmsxL2dpdC9ibG9ic3svc2hhfSIsImdpdF90YWdzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL1dlYl9BUElfSG9tZXdvcmsxL2dpdC90YWdzey9zaGF9IiwiZ2l0X3JlZnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEvZ2l0L3JlZnN7L3NoYX0iLCJ0cmVlc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9XZWJfQVBJX0hvbWV3b3JrMS9naXQvdHJlZXN7L3NoYX0iLCJzdGF0dXNlc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9XZWJfQVBJX0hvbWV3b3JrMS9zdGF0dXNlcy97c2hhfSIsImxhbmd1YWdlc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9XZWJfQVBJX0hvbWV3b3JrMS9sYW5ndWFnZXMiLCJzdGFyZ2F6ZXJzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL1dlYl9BUElfSG9tZXdvcmsxL3N0YXJnYXplcnMiLCJjb250cmlidXRvcnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEvY29udHJpYnV0b3JzIiwic3Vic2NyaWJlcnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEvc3Vic2NyaWJlcnMiLCJzdWJzY3JpcHRpb25fdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEvc3Vic2NyaXB0aW9uIiwiY29tbWl0c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9XZWJfQVBJX0hvbWV3b3JrMS9jb21taXRzey9zaGF9IiwiZ2l0X2NvbW1pdHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEvZ2l0L2NvbW1pdHN7L3NoYX0iLCJjb21tZW50c191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9XZWJfQVBJX0hvbWV3b3JrMS9jb21tZW50c3svbnVtYmVyfSIsImlzc3VlX2NvbW1lbnRfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEvaXNzdWVzL2NvbW1lbnRzey9udW1iZXJ9IiwiY29udGVudHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEvY29udGVudHMveytwYXRofSIsImNvbXBhcmVfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEvY29tcGFyZS97YmFzZX0uLi57aGVhZH0iLCJtZXJnZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEvbWVyZ2VzIiwiYXJjaGl2ZV91cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9XZWJfQVBJX0hvbWV3b3JrMS97YXJjaGl2ZV9mb3JtYXR9ey9yZWZ9IiwiZG93bmxvYWRzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL1dlYl9BUElfSG9tZXdvcmsxL2Rvd25sb2FkcyIsImlzc3Vlc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9XZWJfQVBJX0hvbWV3b3JrMS9pc3N1ZXN7L251bWJlcn0iLCJwdWxsc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9XZWJfQVBJX0hvbWV3b3JrMS9wdWxsc3svbnVtYmVyfSIsIm1pbGVzdG9uZXNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEvbWlsZXN0b25lc3svbnVtYmVyfSIsIm5vdGlmaWNhdGlvbnNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEvbm90aWZpY2F0aW9uc3s/c2luY2UsYWxsLHBhcnRpY2lwYXRpbmd9IiwibGFiZWxzX3VybCI6Imh0dHBzOi8vYXBpLmdpdGh1Yi5jb20vcmVwb3MvU21lZ3NEL1dlYl9BUElfSG9tZXdvcmsxL2xhYmVsc3svbmFtZX0iLCJyZWxlYXNlc191cmwiOiJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zL1NtZWdzRC9XZWJfQVBJX0hvbWV3b3JrMS9yZWxlYXNlc3svaWR9IiwiZGVwbG95bWVudHNfdXJsIjoiaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEvZGVwbG95bWVudHMiLCJjcmVhdGVkX2F0IjoiMjAxNy0wMi0wNFQyMzowMDoyNFoiLCJ1cGRhdGVkX2F0IjoiMjAxNy0wMi0wNFQyMzowMDoyNFoiLCJwdXNoZWRfYXQiOiIyMDE3LTAyLTA0VDIzOjA4OjAyWiIsImdpdF91cmwiOiJnaXQ6Ly9naXRodWIuY29tL1NtZWdzRC9XZWJfQVBJX0hvbWV3b3JrMS5naXQiLCJzc2hfdXJsIjoiZ2l0QGdpdGh1Yi5jb206U21lZ3NEL1dlYl9BUElfSG9tZXdvcmsxLmdpdCIsImNsb25lX3VybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEuZ2l0Iiwic3ZuX3VybCI6Imh0dHBzOi8vZ2l0aHViLmNvbS9TbWVnc0QvV2ViX0FQSV9Ib21ld29yazEiLCJob21lcGFnZSI6bnVsbCwic2l6ZSI6Miwic3RhcmdhemVyc19jb3VudCI6MCwid2F0Y2hlcnNfY291bnQiOjAsImxhbmd1YWdlIjpudWxsLCJoYXNfaXNzdWVzIjp0cnVlLCJoYXNfZG93bmxvYWRzIjp0cnVlLCJoYXNfd2lraSI6dHJ1ZSwiaGFzX3BhZ2VzIjpmYWxzZSwiZm9ya3NfY291bnQiOjAsIm1pcnJvcl91cmwiOm51bGwsIm9wZW5faXNzdWVzX2NvdW50IjowLCJmb3JrcyI6MCwib3Blbl9pc3N1ZXMiOjAsIndhdGNoZXJzIjowLCJkZWZhdWx0X2JyYW5jaCI6Im1hc3RlciIsInBlcm1pc3Npb25zIjp7ImFkbWluIjp0cnVlLCJwdXNoIjp0cnVlLCJwdWxsIjp0cnVlfX1dLCJtZXRhIjp7IngtcmF0ZWxpbWl0LWxpbWl0IjoiNTAwMCIsIngtcmF0ZWxpbWl0LXJlbWFpbmluZyI6IjQ5NTEiLCJ4LXJhdGVsaW1pdC1yZXNldCI6IjE0ODkyOTg3NzkiLCJ4LWdpdGh1Yi1yZXF1ZXN0LWlkIjoiQjNCQTowNzEyOjgyQTY1NDk6OUNBMjcyODo1OEM0RTFFRSIsIngtZ2l0aHViLW1lZGlhLXR5cGUiOiJnaXRodWIudjM7IGZvcm1hdD1qc29uIiwiZXRhZyI6IlwiODE0ZjNlMGIxOThjM2U5N2Q4YmJjMjVlN2VjZjIxZTNcIiIsInN0YXR1cyI6IjIwMCBPSyJ9fQ==",
+					"state": {
+						"size": "normal"
+					},
+					"id": "b6cca2b4-5807-1ad5-e174-7c104734a5b9",
+					"name": "github with oauth token",
+					"request": {
+						"url": "http://drews122002-test.apigee.net/homework2/gitHub",
+						"headers": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{access_token}}",
+								"type": "text",
+								"enabled": true,
+								"disabled": false
+							}
+						],
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "5012aa3c-b3b4-df72-1712-d6c2662b3955",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "https://drews122002-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c6c2f7e2-35ec-22e7-bf1b-a8a974d24eac",
+			"data": [
+				{
+					"key": "client_id",
+					"value": "QXUUKYf05mhakME1QuSyAFQfhftYpCQ5",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "client_secret",
+					"value": "AF7lFpv1MPBfNZxd",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "https://drews122002-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"description": "client id fail",
+			"descriptionFormat": "html",
+			"time": 1489297992261,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 401,
+						"name": "Unauthorized",
+						"detail": "Similar to 403 Forbidden, but specifically for use when authentication is possible but has failed or not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource.",
+						"fromServer": true
+					},
+					"time": 69,
+					"headers": [
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "74",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 05:53:06 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"ErrorCode\" : \"invalid_client\", \"Error\" :\"Client identifier is required\"}",
+					"language": "plain",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 74,
+						"header": 133
+					},
+					"mimeType": "text",
+					"fileName": "response.txt",
+					"dataURI": "data:text/plain;base64, eyJFcnJvckNvZGUiIDogImludmFsaWRfY2xpZW50IiwgIkVycm9yIiA6IkNsaWVudCBpZGVudGlmaWVyIGlzIHJlcXVpcmVkIn0=",
+					"state": {
+						"size": "normal"
+					},
+					"id": "a5604615-5e8c-88fc-96a9-65ce731c1e22",
+					"name": "client id fail ",
+					"request": {
+						"url": "https://drews122002-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+						"headers": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"enabled": true,
+								"description": "The mime type of this content",
+								"disabled": false
+							}
+						],
+						"data": [
+							{
+								"key": "client_id",
+								"value": "QXUUKYf05mhakME1QuSyAFQfhftYpCQ5",
+								"type": "text",
+								"enabled": false
+							},
+							{
+								"key": "client_secret",
+								"value": "AF7lFpv1MPBfNZxd",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"method": "POST",
+						"dataMode": "urlencoded"
+					}
+				}
+			],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\nvar json = JSON.parse(responseBody);\npostman.setEnvironmentVariable(\"access_token\", json.access_token);",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "93ffa31a-fa4f-824b-30a7-1028dfe6c93b",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "https://drews122002-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c6c2f7e2-35ec-22e7-bf1b-a8a974d24eac",
+			"data": [
+				{
+					"key": "client_id",
+					"value": "QXUUKYf05mhakME1QuSyAFQfhftYpCQ5",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "AF7lFpv1MPBfNZxd",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "https://drews122002-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"description": "client secret fail ",
+			"descriptionFormat": "html",
+			"time": 1489297977253,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 401,
+						"name": "Unauthorized",
+						"detail": "Similar to 403 Forbidden, but specifically for use when authentication is possible but has failed or not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource.",
+						"fromServer": true
+					},
+					"time": 331,
+					"headers": [
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "76",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 05:52:48 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"ErrorCode\" : \"invalid_client\", \"Error\" :\"Client credentials are required\"}",
+					"language": "plain",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 76,
+						"header": 133
+					},
+					"mimeType": "text",
+					"fileName": "response.txt",
+					"dataURI": "data:text/plain;base64, eyJFcnJvckNvZGUiIDogImludmFsaWRfY2xpZW50IiwgIkVycm9yIiA6IkNsaWVudCBjcmVkZW50aWFscyBhcmUgcmVxdWlyZWQifQ==",
+					"state": {
+						"size": "normal"
+					},
+					"id": "23b1ee54-02e4-a287-f56e-b44545ef5e9a",
+					"name": "client secret fail ",
+					"request": {
+						"url": "https://drews122002-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+						"headers": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"enabled": true,
+								"description": "The mime type of this content",
+								"disabled": false
+							}
+						],
+						"data": [
+							{
+								"key": "client_id",
+								"value": "QXUUKYf05mhakME1QuSyAFQfhftYpCQ5",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "client_secret",
+								"value": "AF7lFpv1MPBfNZxd",
+								"type": "text",
+								"enabled": false
+							}
+						],
+						"method": "POST",
+						"dataMode": "urlencoded"
+					}
+				}
+			],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\nvar json = JSON.parse(responseBody);\npostman.setEnvironmentVariable(\"access_token\", json.access_token);",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9e6583cf-e9a7-c387-e556-e12e89f05772",
+			"headers": "//Authorization: Bearer {{access_token}}\n",
+			"url": "http://drews122002-test.apigee.net/homework2/gitHub",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c6c2f7e2-35ec-22e7-bf1b-a8a974d24eac",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://drews122002-test.apigee.net/homework2/gitHub",
+			"description": "github oauth fail msg",
+			"descriptionFormat": "html",
+			"time": 1489297940248,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 401,
+						"name": "Rejected for Invalid Key",
+						"detail": "Similar to 403 Forbidden, but specifically for use when authentication is possible but has failed or not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource.",
+						"fromServer": true
+					},
+					"time": 70,
+					"headers": [
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "150",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "The mime type of this content"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 05:52:03 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						},
+						{
+							"key": "WWW-Authenticate",
+							"value": "Bearer realm=\"null\",error=\"invalid_token\",error_description=\"oauth.v2.InvalidAccessToken: Invalid access token\"",
+							"name": "WWW-Authenticate",
+							"description": "Indicates the authentication scheme that should be used to access the requested entity."
+						},
+						{
+							"key": "invalidKey",
+							"value": "Invalid access token! Call the cops!",
+							"name": "invalidKey",
+							"description": "Custom header"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"Wrong Token\" : \"Visit https://drews122002-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials to get a proper token.\"}",
+					"language": "json",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 150,
+						"header": 347
+					},
+					"mimeType": "text",
+					"fileName": "response.json",
+					"dataURI": "data:application/json;base64, eyJXcm9uZyBUb2tlbiIgOiAiVmlzaXQgaHR0cHM6Ly9kcmV3czEyMjAwMi10ZXN0LmFwaWdlZS5uZXQvb2F1dGgvY2xpZW50X2NyZWRlbnRpYWwvYWNjZXNzdG9rZW4/Z3JhbnRfdHlwZT1jbGllbnRfY3JlZGVudGlhbHMgdG8gZ2V0IGEgcHJvcGVyIHRva2VuLiJ9",
+					"state": {
+						"size": "normal"
+					},
+					"id": "328717e1-ac7e-38b9-bcac-5f829a8a596b",
+					"name": "github oauth fail",
+					"request": {
+						"url": "http://drews122002-test.apigee.net/homework2/gitHub",
+						"headers": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{access_token}}",
+								"type": "text",
+								"enabled": false,
+								"disabled": true
+							}
+						],
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e0c07661-f825-4f92-0ab8-27ffc47482ae",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "https://drews122002-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c6c2f7e2-35ec-22e7-bf1b-a8a974d24eac",
+			"data": [
+				{
+					"key": "client_id",
+					"value": "QXUUKYf05mhakME1QuSyAFQfhftYpCQ5",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "AF7lFpv1MPBfNZxd",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "https://drews122002-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+			"description": "getting access token",
+			"descriptionFormat": "html",
+			"time": 1489297851701,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action.",
+						"fromServer": true
+					},
+					"time": 78,
+					"headers": [
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "531",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "The mime type of this content"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 05:50:42 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\n  \"refresh_token_expires_in\" : \"0\",\n  \"api_product_list\" : \"[helloworld]\",\n  \"api_product_list_json\" : [ \"helloworld\" ],\n  \"organization_name\" : \"drews122002\",\n  \"developer.email\" : \"helloworld@apigee.com\",\n  \"token_type\" : \"BearerToken\",\n  \"issued_at\" : \"1489297842715\",\n  \"client_id\" : \"QXUUKYf05mhakME1QuSyAFQfhftYpCQ5\",\n  \"access_token\" : \"V5SGKtWYLZRRG7D7zBAaa2S00IGs\",\n  \"application_name\" : \"590613a9-80d6-4d6b-ac37-0812632c05d1\",\n  \"scope\" : \"\",\n  \"expires_in\" : \"3599\",\n  \"refresh_count\" : \"0\",\n  \"status\" : \"approved\"\n}",
+					"language": "json",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 531,
+						"header": 156
+					},
+					"mimeType": "text",
+					"fileName": "response.json",
+					"dataURI": "data:application/json;base64, ewogICJyZWZyZXNoX3Rva2VuX2V4cGlyZXNfaW4iIDogIjAiLAogICJhcGlfcHJvZHVjdF9saXN0IiA6ICJbaGVsbG93b3JsZF0iLAogICJhcGlfcHJvZHVjdF9saXN0X2pzb24iIDogWyAiaGVsbG93b3JsZCIgXSwKICAib3JnYW5pemF0aW9uX25hbWUiIDogImRyZXdzMTIyMDAyIiwKICAiZGV2ZWxvcGVyLmVtYWlsIiA6ICJoZWxsb3dvcmxkQGFwaWdlZS5jb20iLAogICJ0b2tlbl90eXBlIiA6ICJCZWFyZXJUb2tlbiIsCiAgImlzc3VlZF9hdCIgOiAiMTQ4OTI5Nzg0MjcxNSIsCiAgImNsaWVudF9pZCIgOiAiUVhVVUtZZjA1bWhha01FMVF1U3lBRlFmaGZ0WXBDUTUiLAogICJhY2Nlc3NfdG9rZW4iIDogIlY1U0dLdFdZTFpSUkc3RDd6QkFhYTJTMDBJR3MiLAogICJhcHBsaWNhdGlvbl9uYW1lIiA6ICI1OTA2MTNhOS04MGQ2LTRkNmItYWMzNy0wODEyNjMyYzA1ZDEiLAogICJzY29wZSIgOiAiIiwKICAiZXhwaXJlc19pbiIgOiAiMzU5OSIsCiAgInJlZnJlc2hfY291bnQiIDogIjAiLAogICJzdGF0dXMiIDogImFwcHJvdmVkIgp9",
+					"state": {
+						"size": "normal"
+					},
+					"id": "721157f8-a1ad-354e-e388-1d95024afe5b",
+					"name": "getting access token",
+					"request": {
+						"url": "https://drews122002-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials",
+						"headers": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"enabled": true,
+								"description": "The mime type of this content",
+								"disabled": false
+							}
+						],
+						"data": [
+							{
+								"key": "client_id",
+								"value": "QXUUKYf05mhakME1QuSyAFQfhftYpCQ5",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "client_secret",
+								"value": "AF7lFpv1MPBfNZxd",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"method": "POST",
+						"dataMode": "urlencoded"
+					}
+				}
+			],
+			"tests": "tests[\"Status code is 200\"] = responseCode.code === 200;\nvar json = JSON.parse(responseBody);\npostman.setEnvironmentVariable(\"access_token\", json.access_token);",
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
