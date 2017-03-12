@@ -1,0 +1,58 @@
+swagger: "2.0"
+info:
+  version: "0.0.1"
+  title: Hello World App
+# during dev, should point to your local machine
+host: localhost:10010
+# basePath prefixes all resource paths
+basePath: /
+#
+schemes:
+  # tip: remove http to make production-grade
+  - http
+  - https
+# format of bodies a client can send (Content-Type)
+consumes:
+  - application/json
+# format of the responses to the client (Accepts)
+produces:
+  - application/json
+paths:
+  /gitHub:
+    x-swagger-router-controller: hello_world
+    get:
+      description: recieves oauth token and returns gitHub designated response
+      operationId: getGit
+      parameters:
+        - name: name
+          in: query
+          description: GitHub user
+          required: false
+          type: string
+      responses:
+        "200":
+          description: Success
+          schema:
+            $ref: "#/definitions/GeneralResponse"
+        default:
+            description: Errors
+            schema:
+              $ref: "#/definitions/ErrorResponse"
+
+  /swagger:
+    x-swagger-pipe: swagger_raw
+# complex objects have schema definitions
+definitions:
+  GeneralResponse:
+    properties:
+      name:
+        type: string
+      description:
+        type: string
+  ErrorResponse:
+    required:
+      - message
+    properties:
+      message:
+        type: string
+
